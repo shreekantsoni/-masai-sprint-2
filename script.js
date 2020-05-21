@@ -11,7 +11,7 @@ var count = 80 ;
           
           var bill = count;
           var disc = 5;
-          var t =  disc * 100 / bill;
+          var t =  disc / 100 * bill;
           var tax = bill + t;
           var total = tax - 10;
           
